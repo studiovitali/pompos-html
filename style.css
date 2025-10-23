@@ -1,13 +1,14 @@
 html {
   font-family: Inter, sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  gap: 1em;
-  margin: 0.2em;
+  gap: 0.6em;
+  margin: 0.6em;
 }
 
 h1 {
