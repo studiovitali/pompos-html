@@ -3,8 +3,12 @@ html {
   font-weight: 500;
 }
 
-body {
+main {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1em;
+}
+
+h1 {
+  font-size: 2em;
 }
