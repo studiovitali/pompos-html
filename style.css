@@ -4,13 +4,18 @@ html {
   text-transform: uppercase;
 }
 
+body {
+  padding: 1em;
+}
+
 main {
   display: flex;
   flex-direction: column;
-  gap: 0.6em;
-  margin: 0.6em;
+  gap: 1em;
 }
 
-h1 {
-  font-size: 2em;
+img.header {
+  width: 100%;
+  height: auto;
+  display: block;
 }
