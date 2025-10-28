@@ -4,10 +4,9 @@ html {
   text-transform: uppercase;
 }
 
-/* unset as img.header has its own padding */
-/* body {
+body {
   padding: 1em;
-} */
+}
 
 main {
   display: flex;
