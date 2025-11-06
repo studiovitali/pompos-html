@@ -8,10 +8,10 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   min-height: 100vh; /* fallback */
   min-height: 100dvh; /* modern */
-  padding: clamp(8px, 2vw, 12px) clamp(4px, 2vw, 16px);
-  box-sizing: border-box;
+  padding: clamp(16px, 2vw, 12px) clamp(16px, 2vw, 16px);
 }
 
 img.header {
